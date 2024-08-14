@@ -1,0 +1,135 @@
+body{
+    
+    
+    background:linear-gradient(skyblue,pink);
+    font-family: "Pixelify Sans", sans-serif;
+    color:whitesmoke;
+    
+
+      
+
+}
+
+#header{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;/*y-axis*/
+    align-items: center;/* x- axis*/
+    /*justify-content:space-between;  y-axis*/
+    
+}
+
+h1,h2,h3,h4,p{
+    text-shadow:0px 0px 1px black;
+}
+
+#bday-boy{
+    border-radius: 200%;
+    border-style:solid;
+    border-color:pink;
+}
+
+#bday-age{
+    background:pink;
+    padding:5px 3px 5px 3px;
+    border-radius:5px;
+    margin-bottom:8px;
+}
+
+#bday-date{
+    background:pink;
+    padding:5px 3px 5px 3px;
+    border-radius:5px;
+    margin-top:0px;
+}
+
+
+#gift-section{
+
+    display:flex;
+    flex-direction:column;
+    justify-content:start;
+    align-items:center;
+    margin-bottom:30px;
+
+}
+
+.gift-title{
+    margin-top:10px;
+    margin-bottom:5px;
+}
+
+.gift-hint{
+    margin-top:0px;
+    margin-bottom:10px;
+}
+
+.gif1{
+   
+    background-image: url(gift_wrap.png);
+    background-size:cover;
+    width:400px;
+    height:400px;
+    margin:0px auto;
+    padding: 0px;
+    border: 3px solid white;
+    border-radius:10px;
+
+}
+.gif1:hover{
+    transition-delay: 500ms;
+    background-image: url(gif1.webp);
+    
+}
+
+.gif2{
+   
+    background-image: url(gift_wrap.png);
+    background-size:cover;
+    width:400px;
+    height:400px;
+    margin:0px auto;
+    margin-top:10px;
+    padding: 0px;
+    border: 3px solid white;
+    border-radius:10px;
+}
+.gif2:hover{
+    transition-delay: 500ms;
+    background-image: url(gif2.webp);
+}
+
+.gif3{
+   
+    background-image: url(gift_wrap.png);
+    background-size:cover;
+    width:400px;
+    height:400px;
+    margin:0px auto;
+    margin-top:10px;
+    padding: 0px;
+    border: 3px solid white;
+    border-radius:10px;
+}
+.gif3:hover{
+    transition-delay: 500ms;
+    background-image: url(gif3.webp);
+}
+
+
+.gif4{
+   
+    background-image: url(gift_wrap.png);
+    background-size:cover;
+    width:400px;
+    height:400px;
+    margin:0px auto;
+    margin-top:10px;
+    padding: 0px;
+    border: 3px solid white;
+    border-radius:10px;
+}
+.gif4:hover{
+    transition-delay: 500ms;
+    background-image: url(gif4.webp);
+}
